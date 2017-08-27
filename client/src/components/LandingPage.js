@@ -24,6 +24,24 @@ class LandingPage extends Component {
       middle: {
         display: 'table-cell',
         verticalAlign: 'middle'
+      },
+      about: {
+        backgroundColor: '#F8F8F8',
+        padding: '40px'
+      },
+      aboutHeading: {
+        margin: '0px',
+        textAlign: 'center'
+      },
+      footer: {
+        backgroundColor: '#DCDCDC',
+        textAlign: 'center'
+      },
+      footerText: {
+        margin: '0px',
+        color: '#B0B0B0',
+        paddingTop: '20px',
+        paddingBottom: '20px'
       }
     };
 
@@ -35,7 +53,9 @@ class LandingPage extends Component {
             <h1 style={style.introTitleMessage}>Welcome. This is a title.</h1>
           </div>
         </header>
-        <section>
+        <section style={style.about}>
+          <h2 style={style.aboutHeading}>About</h2>
+          <br/>
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum finibus est, non cursus orci mattis eu. Donec eleifend, tellus eget sollicitudin rutrum, nibh lacus dignissim ex, non malesuada dui orci vel neque. Nulla diam ipsum, vulputate eget odio in, tristique consequat neque. Nullam consequat nisl nibh, ut vehicula elit auctor sed. Suspendisse sed finibus mi, ac tincidunt erat. In hac habitasse platea dictumst. Duis eu congue augue. Vestibulum mattis rutrum sagittis. Praesent semper vitae erat vitae faucibus. Nunc et nisi facilisis, dignissim elit nec, facilisis quam. Maecenas at nibh magna.
 
@@ -48,6 +68,9 @@ Proin dapibus bibendum eros, quis scelerisque lectus sagittis id. Sed sit amet t
 Etiam vulputate turpis quis venenatis viverra. Aliquam pharetra eget felis at elementum. Phasellus condimentum enim a viverra varius. Sed ut varius felis, quis lobortis risus. Ut et luctus dui, quis ullamcorper arcu. Vivamus tempus, odio nec rhoncus feugiat, leo lorem luctus arcu, non condimentum metus libero id eros. Etiam in erat id metus bibendum consequat. Pellentesque convallis est id eleifend ornare. Proin venenatis ligula sapien, eget viverra dui hendrerit vitae. Suspendisse vel odio dapibus, scelerisque tellus eget, pellentesque mi. Cras ut suscipit nisi. Curabitur condimentum efficitur massa a aliquet.
           </p>
         </section>
+        <footer style={style.footer}>
+          <p style={style.footerText}>Ⓒ 2017 Autom8.</p>
+        </footer>
       </div>
     )
   }
