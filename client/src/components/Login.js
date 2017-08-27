@@ -19,7 +19,7 @@ class Login extends Component {
         verticalAlign: 'middle'
       },
       form: {
-        backgroundColor: 'white',
+        backgroundColor: '#F8F8F8',
         marginLeft: 'auto',
         marginRight: 'auto',
         borderRadius: '8px',
