@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import backgroundImage from '../../public/city3.jpg';
+import React, { Component } from 'react'
 import LandingMenuBar from './LandingMenuBar';
+
+const backgroundImage = require('../../public/city3.jpg');
 
 class LandingPage extends Component {
   render() {
