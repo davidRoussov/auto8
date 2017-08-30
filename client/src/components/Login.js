@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import { FormControl, FormGroup, Button } from 'react-bootstrap';
 
-import logo from '../../public/logo.png';
-
 class Login extends Component {
   render() {
     const style = {
       container: {
-        background: 'linear-gradient(#2c3e50, #0C2032)',
+        background: '#2c3e50',//'linear-gradient(#2c3e50, #0C2032)',
         height: '100%',
         width: '100%',
         textAlign: 'center',
-        display: 'flex',
-        flexDirection: 'column'
+        display: 'table'
       },
       middle: {
         display: 'table-cell',
@@ -46,21 +43,11 @@ class Login extends Component {
       },
       loginButton: {
         width: '100%'
-      },
-      logo: {
-        backgroundImage: `url(${logo})`,
-        width: '15%',
-        height: '10%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        marginBottom: '20px',
-        backgroundRepeat: 'round'
       }
     };
 
     return (
       <div style={style.container}>
-        <img src={logo} style={style.logo} alt='company logo'/>
         <div style={style.middle}>
           <div style={style.form} className='panel panel-default'>
             <div style={style.panelBody} className='panel-body'>
