@@ -25,7 +25,7 @@ class LandingMenuBar extends Component {
           <NavItem eventKey={3} href="#">Contact</NavItem>
         </Nav>
         <Nav pullRight>
-          <NavItem eventKey={4} href="#">Sign up</NavItem>
+          <NavItem eventKey={4} href="/signup">Sign up</NavItem>
           <NavItem eventKey={5} href="/login">Login</NavItem>
         </Nav>
       </Navbar>
