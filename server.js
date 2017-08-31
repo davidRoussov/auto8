@@ -19,6 +19,20 @@ py.stdout.on('end', function(){
 });
 // *****************************
 
+
+// testing database ************************
+const { Pool, Client } = require('pg');
+const config = require('./config');
+const client = new Client(config.database.url);
+client.connect()
+  .then(test => {
+    client.query('SELECT * FROM test;')
+      .then(results => console.log(JSON.stringify(results.rows, null, 2)));
+  });
+//************************* 
+
+
+
 // Priority serve any static files.
 app.use(express.static(path.resolve(__dirname, './client/build')));
 
