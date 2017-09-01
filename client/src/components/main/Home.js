@@ -5,7 +5,7 @@ import MenuBar from './MenuBar';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div style={{backgroundColor:'#f9f9f9', height: '100vh'}}>
         <MenuBar/>
       </div>
     );
