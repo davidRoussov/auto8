@@ -71,6 +71,7 @@ class Signup extends Component {
                   <ControlLabel style={style.label}>Password</ControlLabel>
                   <FormControl
                     type='password'
+                    placeholder='Password'
                     style={style.inputField}
                   />
                 </FormGroup>
@@ -78,6 +79,7 @@ class Signup extends Component {
                   <ControlLabel style={style.label}>Re-type password</ControlLabel>
                   <FormControl
                     type='password'
+                    placeholder='Re-type password'
                     style={style.inputField}
                   />
                 </FormGroup>
