@@ -32,3 +32,8 @@
 * Remote Postgres database (ElephantSQL)
 
 ## How to Run From Source (React-Native)
+
+## Feature List
+* Virtual Tour 
+* Renter & Owner Ratings
+* Chat Bot
