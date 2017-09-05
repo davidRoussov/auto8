@@ -27,9 +27,13 @@
 ### Technology Stack
 * React + Redux frontend
 * Node Express backend
-* Jest testing for client code
-* Mocha + Chai + Sinon testing for server code
+* Mocha + Chai + Sinon testing
 * Travis CI
 * Remote Postgres database (ElephantSQL)
 
 ## How to Run From Source (React-Native)
+
+## Feature List
+* Virtual Tour 
+* Renter & Owner Ratings
+* Chat Bot
