@@ -6,8 +6,16 @@ import PropertyGrid from './PropertyGrid';
 
 class Home extends Component {
   render() {
+    const style = {
+      container: {
+        backgroundColor:'#f9f9f9', 
+        height: '100vh',
+        overflow: 'auto'
+      }
+    };
+
     return (
-      <div style={{backgroundColor:'#f9f9f9', height: '100vh'}}>
+      <div style={style.container}>
         <MenuBar/>
         <PropertyGrid/>
         <AppFooter/>

@@ -4,16 +4,19 @@ class Property extends Component {
   render() {
     const style = {
       container: {
-        backgroundColor: '#ecf0f1',
         margin: '10px',
-        borderRadius: '4px',
-        padding: '10px'
+        padding: '10px',
+        width: '400px',
+        height: 'auto'
+      },
+      image: {
+        maxWidth: '100%'
       }
     };
 
     return (
       <div style={style.container}>
-        <p>this is a property</p>
+        <img src={this.props.data} style={style.image} alt='property'/>
       </div>
     );
   }
