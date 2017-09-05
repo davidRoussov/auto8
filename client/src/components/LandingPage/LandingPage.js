@@ -57,22 +57,16 @@ class LandingPage extends Component {
         <LandingMenuBar/>
         <header style={style.intro}>
           <div style={style.middle}>
-            <h1 style={style.introTitleMessage}>Welcome. This is a title.</h1>
+            <h1 style={style.introTitleMessage}>Intelligent, simplified real estate and property management</h1>
           </div>
         </header>
         <section style={style.about}>
           <h2 style={style.aboutHeading}>About</h2>
           <br/>
           <p style={style.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum finibus est, non cursus orci mattis eu. Donec eleifend, tellus eget sollicitudin rutrum, nibh lacus dignissim ex, non malesuada dui orci vel neque. Nulla diam ipsum, vulputate eget odio in, tristique consequat neque. Nullam consequat nisl nibh, ut vehicula elit auctor sed. Suspendisse sed finibus mi, ac tincidunt erat. In hac habitasse platea dictumst. Duis eu congue augue. Vestibulum mattis rutrum sagittis. Praesent semper vitae erat vitae faucibus. Nunc et nisi facilisis, dignissim elit nec, facilisis quam. Maecenas at nibh magna.
-
-Praesent eget vestibulum dolor. Proin cursus, diam nec rutrum efficitur, lorem libero euismod eros, ut mollis metus diam vel ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vestibulum, enim eu scelerisque convallis, est dolor ornare elit, viverra imperdiet dui libero nec dui. Phasellus id sem sit amet ipsum congue scelerisque quis vel ipsum. Proin rhoncus placerat nulla, ac euismod velit euismod at. In nec sem diam. Pellentesque risus tortor, viverra nec nibh vel, sagittis iaculis mauris.
-
-Phasellus vestibulum lacus in lectus suscipit, a dapibus nulla cursus. Vestibulum viverra efficitur metus in varius. Nullam in massa ac justo cursus posuere at vel felis. Fusce sed erat sed eros malesuada laoreet. Nunc vel libero porttitor, dictum leo at, congue ipsum. Donec at nisl sapien. Proin suscipit mi maximus enim eleifend mollis. Praesent ante ligula, pulvinar id egestas eu, sagittis nec enim. Proin gravida eros nulla, tempor cursus est semper eget. In hac habitasse platea dictumst.
-
-Proin dapibus bibendum eros, quis scelerisque lectus sagittis id. Sed sit amet turpis sed ex tincidunt consequat tempus vel purus. Cras ornare convallis neque, a pretium purus aliquet vel. Praesent eget commodo felis. Maecenas sed convallis ex. Nulla posuere nulla eget mollis egestas. Aenean aliquam ultricies faucibus.
-
-Etiam vulputate turpis quis venenatis viverra. Aliquam pharetra eget felis at elementum. Phasellus condimentum enim a viverra varius. Sed ut varius felis, quis lobortis risus. Ut et luctus dui, quis ullamcorper arcu. Vivamus tempus, odio nec rhoncus feugiat, leo lorem luctus arcu, non condimentum metus libero id eros. Etiam in erat id metus bibendum consequat. Pellentesque convallis est id eleifend ornare. Proin venenatis ligula sapien, eget viverra dui hendrerit vitae. Suspendisse vel odio dapibus, scelerisque tellus eget, pellentesque mi. Cras ut suscipit nisi. Curabitur condimentum efficitur massa a aliquet.
+            Civin is a simplified platform for real-estate buyers and sellers. As much as possible is done for you and there is no need to go through the hassle of hiring a real-estate agent.
+            Civin distinguishes itself from other online services with a sophisticated artificial intelligence backbone that will manage the listing and sale of properties, to the finacial
+            and temporal benefit of all those involved.
           </p>
         </section>
         <section style={style.howItWorks}>
@@ -91,19 +85,13 @@ Morbi vulputate felis vel pulvinar feugiat. Nam tellus erat, posuere eget dui ac
             </p>    
         </section>
         <section style={style.about}>
-          <h2 style={style.aboutHeading}>Something Promotional?</h2>
+          <h2 style={style.aboutHeading}>Features</h2>
           <br/>
-          <p style={style.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum finibus est, non cursus orci mattis eu. Donec eleifend, tellus eget sollicitudin rutrum, nibh lacus dignissim ex, non malesuada dui orci vel neque. Nulla diam ipsum, vulputate eget odio in, tristique consequat neque. Nullam consequat nisl nibh, ut vehicula elit auctor sed. Suspendisse sed finibus mi, ac tincidunt erat. In hac habitasse platea dictumst. Duis eu congue augue. Vestibulum mattis rutrum sagittis. Praesent semper vitae erat vitae faucibus. Nunc et nisi facilisis, dignissim elit nec, facilisis quam. Maecenas at nibh magna.
-
-Praesent eget vestibulum dolor. Proin cursus, diam nec rutrum efficitur, lorem libero euismod eros, ut mollis metus diam vel ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vestibulum, enim eu scelerisque convallis, est dolor ornare elit, viverra imperdiet dui libero nec dui. Phasellus id sem sit amet ipsum congue scelerisque quis vel ipsum. Proin rhoncus placerat nulla, ac euismod velit euismod at. In nec sem diam. Pellentesque risus tortor, viverra nec nibh vel, sagittis iaculis mauris.
-
-Phasellus vestibulum lacus in lectus suscipit, a dapibus nulla cursus. Vestibulum viverra efficitur metus in varius. Nullam in massa ac justo cursus posuere at vel felis. Fusce sed erat sed eros malesuada laoreet. Nunc vel libero porttitor, dictum leo at, congue ipsum. Donec at nisl sapien. Proin suscipit mi maximus enim eleifend mollis. Praesent ante ligula, pulvinar id egestas eu, sagittis nec enim. Proin gravida eros nulla, tempor cursus est semper eget. In hac habitasse platea dictumst.
-
-Proin dapibus bibendum eros, quis scelerisque lectus sagittis id. Sed sit amet turpis sed ex tincidunt consequat tempus vel purus. Cras ornare convallis neque, a pretium purus aliquet vel. Praesent eget commodo felis. Maecenas sed convallis ex. Nulla posuere nulla eget mollis egestas. Aenean aliquam ultricies faucibus.
-
-Etiam vulputate turpis quis venenatis viverra. Aliquam pharetra eget felis at elementum. Phasellus condimentum enim a viverra varius. Sed ut varius felis, quis lobortis risus. Ut et luctus dui, quis ullamcorper arcu. Vivamus tempus, odio nec rhoncus feugiat, leo lorem luctus arcu, non condimentum metus libero id eros. Etiam in erat id metus bibendum consequat. Pellentesque convallis est id eleifend ornare. Proin venenatis ligula sapien, eget viverra dui hendrerit vitae. Suspendisse vel odio dapibus, scelerisque tellus eget, pellentesque mi. Cras ut suscipit nisi. Curabitur condimentum efficitur massa a aliquet.
-          </p>
+          <ul style={style.text}>
+            <li>Optimised selling price recommendations + time frame of expected selling dates</li>
+            <li>Much lower fees than traditional real-estate agents</li>
+            <li>Intuitive dashboard for managing your property</li>        
+          </ul>
         </section>
         <AppFooter/>
       </div>
