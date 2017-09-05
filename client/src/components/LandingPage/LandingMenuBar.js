@@ -15,7 +15,7 @@ class LandingMenuBar extends Component {
       <Navbar style={style.navbar}>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#">Autom8</a>
+            <a href="#">Civin</a>
           </Navbar.Brand>
         </Navbar.Header>
         <Nav>

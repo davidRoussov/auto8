@@ -124,7 +124,7 @@ Etiam vulputate turpis quis venenatis viverra. Aliquam pharetra eget felis at el
           </p>
         </section>
         <footer style={style.footer}>
-          <p style={style.footerText}>Ⓒ 2017 Autom8.</p>
+          <p style={style.footerText}>Ⓒ 2017 Civin.</p>
         </footer>
       </div>
     )
