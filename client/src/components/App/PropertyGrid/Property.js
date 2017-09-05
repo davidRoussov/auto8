@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class Property extends Component {
+  openProperty() {
+    console.log('hi');
+  }
+
   render() {
     const style = {
       container: {
@@ -10,7 +14,8 @@ class Property extends Component {
         height: 'auto'
       },
       image: {
-        maxWidth: '100%'
+        maxWidth: '100%',
+        cursor: 'pointer'
       },
       caption: {
         backgroundColor: '#ecf0f1',
@@ -20,7 +25,12 @@ class Property extends Component {
 
     return (
       <div style={style.container}>
-        <img src={this.props.data} style={style.image} alt='property'/>
+        <img 
+          src={this.props.data} 
+          style={style.image} 
+          alt='property'
+          onClick={this.openProperty.bind(this)}
+        />
         <div style={style.caption}>
           <p>This is a home. Please book me!</p>
         </div>
