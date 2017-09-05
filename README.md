@@ -18,11 +18,11 @@
 * To run the tests, run the command: ```npm test```
 
 ### Git Workflow and Deployment
-* Heroku deploys the master branch automatically to https://auto8.herokuapp.com/
+* Heroku deploys the master branch automatically to https://civin.herokuapp.com/
 * Therefore, master will be the release branch
 * Please branch from develop to create your feature and merge back into develop when you're done
 * Develop will be merged into master when we are ready to release
-* Travis CI runs automatically on commit: https://travis-ci.org/davidRoussov/auto8
+* Travis CI runs automatically on commit: https://travis-ci.org/davidRoussov/civin
 
 ### Technology Stack
 * React + Redux frontend
