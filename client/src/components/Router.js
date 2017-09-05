@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 import '../index.css';
 import LandingPage from './LandingPage/LandingPage';
@@ -7,20 +7,20 @@ import Login from './LandingPage/Login';
 import Signup from './LandingPage/Signup';
 import Home from './App/Home';
 
-class App extends Component {
+class Router extends Component {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <div style={{height: '100%'}}>
-          <Route exact path='/' component={LandingPage}/>
+          <Route exact path='/' component={Home}/>
           <Route path='/login' component={Login}/>
           <Route path='/signup' component={Signup}/>
-          <Route path='/home' component={Home}/>
+          <Route path='/about' component={LandingPage}/>
         </div>
-      </Router>
+      </BrowserRouter>
     );
   }
 }
 
-export default App;
+export default Router;
