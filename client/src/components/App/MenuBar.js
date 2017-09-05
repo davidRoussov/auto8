@@ -5,12 +5,13 @@ class MenuBar extends Component {
   render() {
     const style = {
       navbar: {
-        borderRadius: '0px'
+        borderRadius: '0px',
+        margin: '0px'
       }
     };
 
     return (
-      <Navbar inverse collapseOnSelect style={style.navbar}>
+      <Navbar collapseOnSelect style={style.navbar}>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#">Civin</a>

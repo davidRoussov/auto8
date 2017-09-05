@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import backgroundImage from '../../../public/city3.jpg';
 import LandingMenuBar from './LandingMenuBar';
+import AppFooter from '../AppFooter';
 
 class LandingPage extends Component {
   render() {
@@ -38,31 +39,17 @@ class LandingPage extends Component {
         textAlign: 'center',
         color: 'white'
       },
-      footer: {
-        backgroundColor: '#617487',
-        textAlign: 'center'
-      },
-      footerText: {
-        margin: '0px',
-        color: '#B0B0B0',
-        paddingTop: '20px',
-        paddingBottom: '20px'
-      },
-      bigfoot: {
-        backgroundColor: '#3d3d3d',
-        padding: '40px'
-      },
       howItWorks: {
         backgroundColor: '#2c3e50',
         padding: '40px'
       },
-      pee: {
+      text: {
         margin: '0px'
       },
-      peeWhite: {
+      textWhite: {
         margin: '0px',
         color: 'white'
-      }
+      },
     };
 
     return (
@@ -76,7 +63,7 @@ class LandingPage extends Component {
         <section style={style.about}>
           <h2 style={style.aboutHeading}>About</h2>
           <br/>
-          <p style={style.pee}>
+          <p style={style.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum finibus est, non cursus orci mattis eu. Donec eleifend, tellus eget sollicitudin rutrum, nibh lacus dignissim ex, non malesuada dui orci vel neque. Nulla diam ipsum, vulputate eget odio in, tristique consequat neque. Nullam consequat nisl nibh, ut vehicula elit auctor sed. Suspendisse sed finibus mi, ac tincidunt erat. In hac habitasse platea dictumst. Duis eu congue augue. Vestibulum mattis rutrum sagittis. Praesent semper vitae erat vitae faucibus. Nunc et nisi facilisis, dignissim elit nec, facilisis quam. Maecenas at nibh magna.
 
 Praesent eget vestibulum dolor. Proin cursus, diam nec rutrum efficitur, lorem libero euismod eros, ut mollis metus diam vel ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vestibulum, enim eu scelerisque convallis, est dolor ornare elit, viverra imperdiet dui libero nec dui. Phasellus id sem sit amet ipsum congue scelerisque quis vel ipsum. Proin rhoncus placerat nulla, ac euismod velit euismod at. In nec sem diam. Pellentesque risus tortor, viverra nec nibh vel, sagittis iaculis mauris.
@@ -91,7 +78,7 @@ Etiam vulputate turpis quis venenatis viverra. Aliquam pharetra eget felis at el
         <section style={style.howItWorks}>
           <h2 style={style.howItWorksHeading}>How It Works</h2>
             <br/>
-            <p style={style.peeWhite}> 
+            <p style={style.textWhite}> 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod, felis eget posuere tincidunt, justo diam accumsan odio, blandit eleifend orci dolor sit amet arcu. Duis suscipit ornare lorem, sed malesuada lectus vehicula ac. Integer congue odio vitae metus iaculis bibendum vitae eget augue. Praesent vestibulum sit amet nunc semper interdum. Nulla facilisi. Maecenas sed tempus urna. Integer non lacus nec nulla imperdiet tincidunt.
 
 Suspendisse aliquam rutrum arcu. Vestibulum eu nibh tristique, hendrerit leo a, vestibulum libero. Vestibulum erat magna, dictum sit amet laoreet eu, posuere non arcu. Aliquam a volutpat felis. Fusce massa neque, suscipit sed massa iaculis, rhoncus auctor dui. Morbi tempus est elit, id commodo velit vulputate ut. Donec eget libero augue. Ut tempor scelerisque gravida. Nulla et ligula eget justo mollis sagittis. Nunc fermentum id leo molestie vestibulum. Sed at feugiat tellus, et pulvinar tortor. Aliquam posuere nec libero eget gravida. Ut nec scelerisque mauris, tempor condimentum leo. Phasellus vulputate eros aliquet massa sollicitudin dignissim. Maecenas laoreet pulvinar sem quis fringilla.
@@ -106,7 +93,7 @@ Morbi vulputate felis vel pulvinar feugiat. Nam tellus erat, posuere eget dui ac
         <section style={style.about}>
           <h2 style={style.aboutHeading}>Something Promotional?</h2>
           <br/>
-          <p style={style.pee}>
+          <p style={style.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum finibus est, non cursus orci mattis eu. Donec eleifend, tellus eget sollicitudin rutrum, nibh lacus dignissim ex, non malesuada dui orci vel neque. Nulla diam ipsum, vulputate eget odio in, tristique consequat neque. Nullam consequat nisl nibh, ut vehicula elit auctor sed. Suspendisse sed finibus mi, ac tincidunt erat. In hac habitasse platea dictumst. Duis eu congue augue. Vestibulum mattis rutrum sagittis. Praesent semper vitae erat vitae faucibus. Nunc et nisi facilisis, dignissim elit nec, facilisis quam. Maecenas at nibh magna.
 
 Praesent eget vestibulum dolor. Proin cursus, diam nec rutrum efficitur, lorem libero euismod eros, ut mollis metus diam vel ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vestibulum, enim eu scelerisque convallis, est dolor ornare elit, viverra imperdiet dui libero nec dui. Phasellus id sem sit amet ipsum congue scelerisque quis vel ipsum. Proin rhoncus placerat nulla, ac euismod velit euismod at. In nec sem diam. Pellentesque risus tortor, viverra nec nibh vel, sagittis iaculis mauris.
@@ -118,14 +105,7 @@ Proin dapibus bibendum eros, quis scelerisque lectus sagittis id. Sed sit amet t
 Etiam vulputate turpis quis venenatis viverra. Aliquam pharetra eget felis at elementum. Phasellus condimentum enim a viverra varius. Sed ut varius felis, quis lobortis risus. Ut et luctus dui, quis ullamcorper arcu. Vivamus tempus, odio nec rhoncus feugiat, leo lorem luctus arcu, non condimentum metus libero id eros. Etiam in erat id metus bibendum consequat. Pellentesque convallis est id eleifend ornare. Proin venenatis ligula sapien, eget viverra dui hendrerit vitae. Suspendisse vel odio dapibus, scelerisque tellus eget, pellentesque mi. Cras ut suscipit nisi. Curabitur condimentum efficitur massa a aliquet.
           </p>
         </section>
-        <section style={style.bigfoot}>
-          <p style={style.peeWhite}>
-          Sed eget lacinia nisl. Nam a quam a elit consequat commodo a a tortor. Vivamus ultricies pretium faucibus. Praesent nec pulvinar elit. Cras commodo malesuada eleifend. Mauris viverra turpis et elementum imperdiet. Fusce eleifend pulvinar enim, ut blandit lorem sagittis ac. Sed vitae congue augue, non dictum lacus. Nulla molestie lorem at ante faucibus commodo. Phasellus in sem eu quam varius tincidunt ut vitae nunc. Curabitur et dui vel velit accumsan vestibulum. Nulla facilisi. Aliquam aliquam ultrices pretium.
-          </p>
-        </section>
-        <footer style={style.footer}>
-          <p style={style.footerText}>Ⓒ 2017 Civin.</p>
-        </footer>
+        <AppFooter/>
       </div>
     )
   }
