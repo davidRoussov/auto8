@@ -24,8 +24,8 @@ class Grid extends Component {
       }
     };
 
-    const allHomes = [prop1, prop2, prop3, prop4, prop5, prop6, prop7, prop8].map(home => 
-      <Property data={home}/>
+    const allHomes = [prop1, prop2, prop3, prop4, prop5, prop6, prop7, prop8].map((home, i) => 
+      <Property key={i} data={home}/>
     );
 
     return (
