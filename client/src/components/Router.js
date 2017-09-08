@@ -8,6 +8,7 @@ import Signup from './LandingPage/Signup';
 import Home from './App/Home';
 import Pricing from './LandingPage/Pricing';
 import Contact from './LandingPage/Contact';
+import Blog from './LandingPage/Blog/Blog';
 
 class Router extends Component {
 
@@ -21,6 +22,7 @@ class Router extends Component {
           <Route path='/about' component={LandingPage}/>
           <Route path='/pricing' component={Pricing}/>
           <Route path='/contact' component={Contact}/>
+          <Route path='/blog' component={Blog}/>
         </div>
       </BrowserRouter>
     );

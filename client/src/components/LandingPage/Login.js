@@ -76,7 +76,7 @@ class Login extends Component {
               <a href='/signup'>  Sign up</a>              
             </div>
           </div>
-          <a href='#' style={{color: 'white'}}>Forgot your password?</a>
+          <a style={{color: 'white'}}>Forgot your password?</a>
         </div>
       </div>
     )

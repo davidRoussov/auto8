@@ -14,7 +14,7 @@ class MenuBar extends Component {
       <Navbar collapseOnSelect style={style.navbar}>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#">Civin</a>
+            <a>Civin</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

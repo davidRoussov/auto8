@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import backgroundImage from '../../../public/city3.jpg';
+import backgroundImage from '../../images/city3.jpg';
 import LandingMenuBar from './LandingMenuBar';
 import AppFooter from '../AppFooter';
 

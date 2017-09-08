@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import Property from './Property';
 
 
-import prop1 from '../../../../public/temp/prop1.jpeg';
-import prop2 from '../../../../public/temp/prop2.jpeg';
-import prop3 from '../../../../public/temp/prop3.jpeg';
-import prop4 from '../../../../public/temp/prop4.jpg';
-import prop5 from '../../../../public/temp/prop5.jpeg';
-import prop6 from '../../../../public/temp/prop6.jpeg';
-import prop7 from '../../../../public/temp/prop7.jpeg';
-import prop8 from '../../../../public/temp/prop8.jpeg';
+import prop1 from '../../../images/temp/prop1.jpeg';
+import prop2 from '../../../images/temp/prop2.jpeg';
+import prop3 from '../../../images/temp/prop3.jpeg';
+import prop4 from '../../../images/temp/prop4.jpg';
+import prop5 from '../../../images/temp/prop5.jpeg';
+import prop6 from '../../../images/temp/prop6.jpeg';
+import prop7 from '../../../images/temp/prop7.jpeg';
+import prop8 from '../../../images/temp/prop8.jpeg';
 
 
 
