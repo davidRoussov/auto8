@@ -5,9 +5,9 @@ class LandingMenuBar extends Component {
   render() {
     const style = {
       navbar: {
-        position: 'absolute',
         width: '100%',
-        borderRadius: '0px'
+        borderRadius: '0px',
+        marginBottom: '0px'
       }
     };
 

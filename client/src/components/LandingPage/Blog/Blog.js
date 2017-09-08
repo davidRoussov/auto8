@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import LandingMenuBar from '../LandingMenuBar';
 import { getBlogPosts } from '../../../actions/blog';
 
 class Blog extends Component {
@@ -8,14 +9,34 @@ class Blog extends Component {
     this.props.getBlogPosts();
   }
 
-  componentWillReceiveProps(props) {
-    console.log(JSON.stringify(props, null, 2));
-  }
-
   render() {
+    const style = {
+      blogContainer: {
+        marginLeft: '10%',
+        backgroundColor: '#f2f2f2',
+        height: 'auto',
+        width: '50%',
+        padding: '20px',
+        paddingBottom: '40px'
+      }
+    };
+
+    const posts = this.props.posts ? this.props.posts : [];
+    const posts_jsx = posts.map(post => {
+      return (
+        <div key={post.id}>
+          <h2>{post.title}</h2>
+          <p>{post.body}</p>
+        </div>
+      );
+    });
+
     return (
-      <div>
-        <h2>hello, there!</h2>
+      <div style={style.container}>
+        <LandingMenuBar/>
+        <div style={style.blogContainer}>
+          {posts_jsx}
+        </div>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 const dummyBlogData = [
   {
+    id: '1',
     title: 'this is a title',
     date: '2017-09-10',
     author: 'Mick Peslo',
@@ -10,15 +11,13 @@ const dummyBlogData = [
       Donec eu velit eget ligula gravida venenatis lacinia in felis. Aenean volutpat, erat ut facilisis pellentesque, nulla metus varius sapien, eu euismod erat quam eu elit. Quisque lectus massa, blandit nec porttitor sit amet, porttitor sed enim. Quisque sollicitudin, mauris non semper convallis, lorem mauris lacinia metus, in finibus mauris nibh quis justo. Proin faucibus porttitor sem maximus dignissim. Etiam at ante ac orci sodales hendrerit quis nec mi. Fusce accumsan, odio nec pharetra bibendum, diam dolor facilisis eros, ac aliquet ex nunc at leo. Quisque tempus, felis ac varius varius, orci massa varius quam, quis dapibus massa felis vitae enim. Praesent vestibulum, lacus nec laoreet pretium, augue lorem feugiat mauris, at cursus neque nunc eu risus. Pellentesque hendrerit diam vel fermentum luctus. Proin aliquam pulvinar purus ut imperdiet. Pellentesque in velit sapien. Curabitur nulla augue, malesuada ut justo eget, congue mollis ipsum. Proin feugiat rutrum neque, non bibendum ligula commodo eu. Cras molestie dictum ex. Integer nec nulla vel nisi dignissim egestas ut ac elit.`
   },
   {
+    id: '2',
     title: 'hello, there!',
     date: '2017-09-08',
     author: 'Alice Cooper',
     body: `Pellentesque dictum volutpat orci, a blandit tellus tincidunt id. Maecenas sit amet odio feugiat, maximus mauris quis, vestibulum lacus. Vestibulum ut diam nec nisl molestie rhoncus eu a dolor. Ut sit amet odio convallis, dictum urna at, sollicitudin justo. Aliquam venenatis dolor a lacus suscipit vestibulum. Nullam laoreet augue ipsum, vel vulputate ante finibus vitae. In commodo, elit ac condimentum fermentum, nibh justo placerat purus, cursus faucibus tellus tortor nec lorem. Ut est ipsum, dapibus tempor sapien eu, dapibus congue justo. Duis condimentum facilisis pretium.
-    
     Etiam non dignissim dolor. Vivamus non nulla vitae dolor sagittis egestas ut eget leo. Aliquam at ex luctus mi posuere sodales sed at ex. Pellentesque orci ante, posuere ac laoreet nec, blandit vitae quam. Vestibulum sit amet quam magna. Nulla ac pharetra sapien. Quisque fermentum consequat neque non condimentum. Nullam scelerisque dictum tincidunt. Quisque ultricies lacinia odio, nec volutpat nisi. Nam gravida ante mauris, non luctus est semper quis. Mauris ut bibendum justo, id luctus sem. Mauris imperdiet congue interdum. Nam non dictum diam. Proin vehicula tempus semper.
-    
     Praesent ac tempus lectus. Duis aliquet massa vitae accumsan varius. Proin venenatis sollicitudin ligula vel iaculis. Nunc euismod non nisi sed aliquet. Pellentesque sit amet magna quam. Aenean efficitur at magna nec commodo. Donec id quam eu diam vulputate malesuada vestibulum eget massa. Duis imperdiet dolor et leo pellentesque varius.
-    
     Morbi non quam at sapien aliquet tincidunt. Pellentesque tellus sapien, maximus ut nisi sit amet, porttitor vehicula metus. Etiam quis diam et ligula volutpat pharetra quis nec risus. Quisque nec dolor tellus. Duis venenatis quis mauris id feugiat. Etiam condimentum magna augue, vitae lobortis diam iaculis nec. Suspendisse diam purus, pellentesque quis metus in, suscipit ultricies velit. Donec quis risus faucibus, malesuada odio eget, semper nulla. Morbi at imperdiet orci, at dapibus enim. Mauris id turpis laoreet, vehicula nunc vitae, interdum elit.`
   }
 ];
