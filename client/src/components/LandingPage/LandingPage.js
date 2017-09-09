@@ -57,7 +57,7 @@ class LandingPage extends Component {
 
     return (
       <div>
-        <div style={{position: 'absolute', width: '100%'}}><LandingMenuBar/></div>
+        <div style={{position: 'absolute', width: '100%'}}><LandingMenuBar introActive={true}/></div>
         <header style={style.intro}>
           <div style={style.middle}>
             <h1 style={style.introTitleMessage}>Intelligent, simplified real estate and property management</h1>

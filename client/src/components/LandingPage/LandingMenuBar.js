@@ -19,10 +19,10 @@ class LandingMenuBar extends Component {
           </Navbar.Brand>
         </Navbar.Header>
         <Nav>
-          <NavItem eventKey={1} href="#">About</NavItem>
-          <NavItem eventKey={2} href="/pricing">Pricing</NavItem>
-          <NavItem eventKey={3} href="/blog">Blog</NavItem>
-          <NavItem eventKey={4} href="/contact">Contact</NavItem>
+          <NavItem className={this.props.introActive ? "active" : ""} eventKey={1} href="/intro">Intro</NavItem>
+          <NavItem className={this.props.pricingActive ? "active" : ""}  eventKey={2} href="/pricing">Pricing</NavItem>
+          <NavItem className={this.props.blogActive ? "active" : ""}  eventKey={3} href="/blog">Blog</NavItem>
+          <NavItem className={this.props.contactActive ? "active" : ""} m eventKey={4} href="/contact">Contact</NavItem>
         </Nav>
         <Nav pullRight>
           <NavItem eventKey={5} href="/signup">Sign up</NavItem>

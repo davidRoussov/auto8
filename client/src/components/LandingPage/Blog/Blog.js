@@ -33,7 +33,7 @@ class Blog extends Component {
 
     return (
       <div style={style.container}>
-        <LandingMenuBar/>
+        <LandingMenuBar blogActive={true}/>
         <div style={style.blogContainer}>
           {posts_jsx}
         </div>

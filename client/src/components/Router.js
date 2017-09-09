@@ -19,7 +19,7 @@ class Router extends Component {
           <Route exact path='/' component={Home}/>
           <Route path='/login' component={Login}/>
           <Route path='/signup' component={Signup}/>
-          <Route path='/about' component={LandingPage}/>
+          <Route path='/intro' component={LandingPage}/>
           <Route path='/pricing' component={Pricing}/>
           <Route path='/contact' component={Contact}/>
           <Route path='/blog' component={Blog}/>
