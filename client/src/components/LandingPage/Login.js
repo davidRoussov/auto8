@@ -5,7 +5,7 @@ class Login extends Component {
   render() {
     const style = {
       container: {
-        background: '#2c3e50',//'linear-gradient(#2c3e50, #0C2032)',
+        background: '#ad1c0c',//'linear-gradient(#2c3e50, #0C2032)',
         height: '100%',
         width: '100%',
         textAlign: 'center',

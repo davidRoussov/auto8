@@ -16,7 +16,8 @@ class Router extends Component {
     return (
       <BrowserRouter>
         <div style={{height: '100%'}}>
-          <Route exact path='/' component={Home}/>
+          <Route exact path='/' component={LandingPage}/>
+          <Route exact path='/home' component={Home}/>
           <Route path='/login' component={Login}/>
           <Route path='/signup' component={Signup}/>
           <Route path='/intro' component={LandingPage}/>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import MenuBar from './MenuBar';
 import AppFooter from '../AppFooter';
-import PropertyGrid from './PropertyGrid';
 
 class Home extends Component {
   render() {
@@ -17,7 +16,6 @@ class Home extends Component {
     return (
       <div style={style.container}>
         <MenuBar/>
-        <PropertyGrid/>
         <AppFooter/>
       </div>
     );

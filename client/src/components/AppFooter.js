@@ -12,7 +12,7 @@ class AppFooter extends Component {
         color: 'white'
       },
       littleFoot: {
-        backgroundColor: '#617487',
+        backgroundColor: '#565555',
         textAlign: 'center'
       },
       footerText: {
@@ -31,7 +31,7 @@ class AppFooter extends Component {
           </p>
         </section>
         <footer style={style.littleFoot}>
-          <p style={style.footerText}>Ⓒ 2017 Civin.</p>
+          <p style={style.footerText}>Ⓒ 2017 Recelle.</p>
         </footer>
       </div>
     );
